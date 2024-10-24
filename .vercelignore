@@ -1,0 +1,10 @@
+# Ignora directorios y archivos innecesarios
+node_modules
+vendor
+storage/*.log
+.idea
+.vscode
+/tests
+*.md
+*.log
+*.sqlite
