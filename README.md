@@ -1,6 +1,10 @@
 # 2da Entrega Curso Full Stack UNET
 Ensayo 2da entrega curso full stck UNET
 
+Usuario Válido:
+lesujuca@gmail.com
+password
+
 Mi entrega es sobre un mini portfolio personal.
 
 La api ha sido desarrollada en Laravel (Framework de Php), la siguiente tiene los siguientes endpoints:
