@@ -1,11 +1,11 @@
 <?php
 
 $dirs = [
-    '/tmp/storage/framework/cache/data',
-    '/tmp/storage/framework/sessions',
-    '/tmp/storage/framework/testing',
-    '/tmp/storage/framework/views',
-    '/tmp/storage/logs'
+    '/tmp/framework/cache/data',
+    '/tmp/framework/sessions',
+    '/tmp/framework/testing',
+    '/tmp/framework/views',
+    '/tmp/logs'
 ];
 
 foreach ($dirs as $dir) {
