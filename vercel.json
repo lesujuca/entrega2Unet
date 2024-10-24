@@ -15,7 +15,7 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://tu-app-vercel.com",
+    "APP_URL": "https://juan-lermas-projects/entrega2-unet",
     "VIEW_COMPILED_PATH": "/tmp"
   }
 }
