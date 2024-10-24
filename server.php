@@ -1,6 +1,5 @@
 <?php
 
-// Crear directorios temporales en Vercel
 $dirs = [
     '/tmp/storage/framework/cache/data',
     '/tmp/storage/framework/sessions',
