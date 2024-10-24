@@ -12,6 +12,7 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         //
+        $this->app['router']->pushMiddlewareToGroup('web', \App\Http\Middleware\SetStoragePath::class);
     }
 
     /**
