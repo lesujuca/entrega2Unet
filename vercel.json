@@ -1,15 +1,21 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "public/index.php",
-        "use": "vercel-php"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/public/index.php"
-      }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.php",
+      "use": "@vercel-php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": false,
+    "APP_URL": "https://entrega2-unet-cxi99q00w-juan-lermas-projects.vercel.app",
+    "VIEW_COMPILED_PATH": "/tmp"
+  }
 }
